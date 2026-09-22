@@ -1,5 +1,7 @@
 # GrokBot
 
+[![CI](https://github.com/MajesticFreedom/GrokBot/actions/workflows/ci.yml/badge.svg)](https://github.com/MajesticFreedom/GrokBot/actions/workflows/ci.yml)
+
 GrokBot is a small Node.js HTTP service that reports whether it is up.
 
 ## Run
