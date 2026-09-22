@@ -1,0 +1,16 @@
+{
+  "name": "GrokBot",
+  "install": "npm install",
+  "terminals": [
+    {
+      "name": "grokbot-server",
+      "command": "npm start"
+    }
+  ],
+  "ports": [
+    {
+      "name": "GrokBot web",
+      "port": 3000
+    }
+  ]
+}

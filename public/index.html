@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrokBot</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="brand">
+          <span class="logo">✦</span>
+          <div>
+            <h1>GrokBot</h1>
+            <p class="tagline">A tiny chat bot powered by xAI Grok</p>
+          </div>
+        </div>
+        <span id="mode-badge" class="badge" title="Current backend mode">…</span>
+      </header>
+
+      <main id="messages" class="messages" aria-live="polite">
+        <div class="message bot">
+          <div class="bubble">Hi! I'm GrokBot. Type a message below to get started.</div>
+        </div>
+      </main>
+
+      <form id="chat-form" class="composer" autocomplete="off">
+        <input
+          id="input"
+          class="input"
+          type="text"
+          placeholder="Ask GrokBot something…"
+          aria-label="Message"
+          required
+        />
+        <button id="send" class="send" type="submit">Send</button>
+      </form>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
